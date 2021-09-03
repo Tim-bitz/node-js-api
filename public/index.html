@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="logic.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>API of books to read!</h1>
+    <br>
+    <section id="books"></section>
+    <section>
+        <br>
+        <button onclick="collectBooks()">Show all books</button>
+        <br>
+        <br>
+        <input id="inputField" type="text">
+        <button onclick="addBook()">Add book to list</button>
+        <hr>
+    </section>
+    <section>
+        <br>
+        <h1>Things you can do when you're not reading!</h1>
+        <p id="ideaContainer"></p>
+        <p id="linkContainer"></p>
+        <button onclick="externalFetch()">Fetch a new idea from external API</button>
+    </section>
+
+
+</body>
+
+</html>
