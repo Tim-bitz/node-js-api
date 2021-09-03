@@ -1,9 +1,10 @@
 En api bestående utav en boklista.
 man kan själv lägga till, ta bort och uppdatera böcker i listan.
 
-npm express install
-npm start
-//beskrivning för hur man startar appen
+För att starta applikationen behöver du ha node package manager och express js installerat.
+kör följande kommandon i terminalen:
+npm install
+npm node index.js
 
 Show all books hämtar alla böcker från det egna api
 
