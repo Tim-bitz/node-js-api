@@ -1,0 +1,16 @@
+GET http://localhost:3000/api
+
+###
+
+GET http://localhost:3000/api/id/A song of ice and fire
+###
+
+POST http://localhost:3000/api
+
+###
+
+PUT http://localhost:3000/api/testTitle/testId
+
+###
+
+DELETE http://localhost:3000/api/testId
